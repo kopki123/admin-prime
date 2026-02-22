@@ -1,0 +1,477 @@
+{
+  "language": "English",
+  "lang_code": "en-US",
+  "api_error_message": {
+    "offline": "No internet connection",
+    "timeout": "Connection timed out, please try again later",
+    "bad_request": "Invalid request, cannot retrieve resource",
+    "bad_response": "Server error, cannot execute request",
+    "unknown": "Unknown error"
+  },
+  "system": {
+    "title": "Admin Prime"
+  },
+  "v": {
+    "required": "This field is required",
+    "email_invalid": "Please enter a valid email address",
+    "user_name_length": "Username must be between 3 and 20 characters",
+    "role_id_invalid": "Invalid role format",
+    "status_invalid": "Invalid status format"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "system_admin": "System Admin",
+    "user_section": "People & Accounts",
+    "users": "User Management"
+  },
+  "route": {
+    "login": "Login",
+    "dashboard": "Dashboard",
+    "users": "User Management",
+    "forbidden": "Forbidden",
+    "not_found": "Not Found"
+  },
+  "dashboard": {
+    "total_sales": "Total Sales",
+    "total_orders": "Total Orders",
+    "new_customers": "New Customers",
+    "conversion_rate": "Conversion Rate",
+    "vs_last_month": "vs last month",
+    "last30_days_trend_analysis": "30-Day Trend Analysis",
+    "trend_subtitle": "Daily revenue changes with smoothed trend",
+    "sales_trend": "Daily Revenue",
+    "weekly_revenue_title": "Weekly Revenue",
+    "weekly_revenue_dataset": "Weekly Revenue",
+    "traffic_sources_title": "Traffic Sources",
+    "weekdays": {
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun"
+    },
+    "traffic_sources": {
+      "direct": "Direct",
+      "social": "Social Media",
+      "search": "Search Engine",
+      "ads": "Paid Ads"
+    }
+  },
+  "user_management": {
+    "add_user": "Add User",
+    "edit_user": "Edit User",
+    "search_placeholder": "Search name, email, or role",
+    "delete_confirm": "Are you sure you want to delete \"{name}\"?",
+    "columns": {
+      "id": "ID",
+      "avatar": "Avatar",
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "roles": {
+      "admin": "Admin",
+      "manager": "Manager",
+      "user": "User"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Enter name",
+      "email": "Email",
+      "email_placeholder": "Enter email",
+      "role": "Role",
+      "status": "Status"
+    },
+    "validation": {
+      "required": "Name and email are required",
+      "invalid_email": "Please enter a valid email address"
+    },
+    "messages": {
+      "created": "User created successfully",
+      "updated": "User updated successfully",
+      "deleted": "User deleted",
+      "save_failed": "Failed to save, please try again later",
+      "delete_failed": "Failed to delete, please try again later"
+    }
+  },
+  "login_page": {
+    "subtitle": "Sign in with your account credentials",
+    "theme_toggle": "Toggle theme",
+    "language_switcher": "Switch language",
+    "email_label": "Email",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "login_button": "Sign In",
+    "languages": {
+      "zh_tw": "Traditional Chinese",
+      "en_us": "English"
+    },
+    "errors": {
+      "required": "Please enter both email and password",
+      "invalid_credentials": "Invalid email or password. Please try again."
+    },
+    "messages": {
+      "login_success": "Login successful, redirecting to dashboard"
+    }
+  },
+  "login": {
+    "divider_text": "Or continue with",
+    "remember_me": "Remember Me",
+    "forgot_password": "Forgot Password",
+    "social": {
+      "google": "Google",
+      "github": "GitHub"
+    },
+    "social_success": "Simulated {provider} sign-in completed"
+  },
+  "error_page": {
+    "actions": {
+      "go_home": "Back to Home"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright © {year} {project}",
+    "source_code": "Source Code"
+  },
+  "common": {
+    "change_password": "Change password",
+    "logout": "Logout",
+    "no_data": "No data",
+    "pagination": {
+      "total_records": "Total: {count}"
+    },
+    "dialog": {
+      "alert": "Alert",
+      "confirmation": "Confirmation",
+      "prompt": "Prompt"
+    },
+    "button": {
+      "add": "Add",
+      "create": "Create",
+      "edit": "Edit",
+      "update": "Update",
+      "save": "Save",
+      "delete": "Delete",
+      "remove": "Remove",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "submit": "Submit",
+      "reset": "Reset",
+      "search": "Search",
+      "filter": "Filter",
+      "clear": "Clear",
+      "back": "Back",
+      "back_to_list": "Back to List",
+      "next": "Next",
+      "previous": "Previous",
+      "view": "View",
+      "view_more": "View More",
+      "more": "More",
+      "detail": "Details",
+      "download": "Download",
+      "upload": "Upload",
+      "import": "Import",
+      "export": "Export",
+      "print": "Print",
+      "copy": "Copy",
+      "refresh": "Refresh",
+      "close": "Close",
+      "yes": "Yes",
+      "no": "No",
+      "ok": "OK",
+      "retry": "Retry",
+      "continue": "Continue",
+      "select_all": "Select All",
+      "deselect_all": "Deselect All",
+      "expand_all": "Expand All",
+      "collapse_all": "Collapse All",
+      "change": "Change",
+      "apply": "Apply",
+      "preview": "Preview",
+      "send": "Send",
+      "login": "Login",
+      "logout": "Logout",
+      "enable": "Enable",
+      "disable": "Disable",
+      "send_record": "Send Record"
+    },
+    "image_editor": {
+      "rotate_left": "Rotate Left 90°",
+      "rotate_right": "Rotate Right 90°",
+      "zoom_in": "Zoom In",
+      "zoom_out": "Zoom Out",
+      "flip_horizontal": "Flip Horizontal",
+      "flip_vertical": "Flip Vertical",
+      "reset": "Reset"
+    },
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "Follow System"
+    },
+    "toast": {
+      "success": "Success",
+      "info": "Info",
+      "warn": "Warning",
+      "error": "Error"
+    },
+    "form": {
+      "placeholder": {
+        "account": "Enter your account",
+        "email": "Enter your email",
+        "password": "Enter your password",
+        "confirm_password": "Confirm your password",
+        "captcha": "Enter captcha"
+      },
+      "label": {
+        "account": "Account",
+        "email": "Email",
+        "password": "Password",
+        "confirm_password": "Confirm password"
+      },
+      "validation": {
+        "account": {
+          "required": "Account is required"
+        },
+        "email": {
+          "required": "Email is required",
+          "invalid": "Please enter a valid email"
+        },
+        "password": {
+          "required": "Password is required",
+          "min": "Password must be at least 8 characters",
+          "max": "Password cannot exceed 16 characters",
+          "uppercase": "Password must contain at least one uppercase letter",
+          "lowercase": "Password must contain at least one lowercase letter",
+          "number": "Password must contain at least one number",
+          "special": "Password must contain at least one special character"
+        },
+        "confirm_password": {
+          "required": "Confirm password is required",
+          "invalid": "Please enter matched password"
+        },
+        "captcha": {
+          "required": "Captcha is required",
+          "invalid": "Please enter a valid captcha"
+        }
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "mark_all_as_read": "Mark all as read",
+    "view_all": "View all",
+    "empty": "No notifications",
+    "items": {
+      "system_update": {
+        "title": "System update completed",
+        "description": "Scheduled maintenance finished successfully."
+      },
+      "new_message": {
+        "title": "New message from support",
+        "description": "A support specialist replied to your ticket."
+      },
+      "security_alert": {
+        "title": "Unusual login detected",
+        "description": "We noticed a sign-in from a new browser."
+      },
+      "weekly_report": {
+        "title": "Weekly report is ready",
+        "description": "Your latest analytics summary is now available."
+      }
+    },
+    "time": {
+      "minutes_ago": "{count} minutes ago",
+      "hour_ago": "1 hour ago",
+      "hours_ago": "{count} hours ago"
+    }
+  },
+  "primevue": {
+    "starts_with": "Starts with",
+    "contains": "Contains",
+    "not_contains": "Not contains",
+    "ends_with": "Ends with",
+    "equals": "Equals",
+    "not_equals": "Not equals",
+    "no_filter": "No Filter",
+    "lt": "Less than",
+    "lte": "Less than or equal to",
+    "gt": "Greater than",
+    "gte": "Greater than or equal to",
+    "date_is": "Date is",
+    "date_is_not": "Date is not",
+    "date_before": "Date is before",
+    "date_after": "Date is after",
+    "clear": "Clear",
+    "apply": "Apply",
+    "match_all": "Match All",
+    "match_any": "Match Any",
+    "add_rule": "Add Rule",
+    "remove_rule": "Remove Rule",
+    "accept": "Yes",
+    "reject": "No",
+    "choose": "Choose",
+    "upload": "Upload",
+    "cancel": "Cancel",
+    "completed": "Completed",
+    "pending": "Pending",
+    "file_size_types": [
+      "B",
+      "KB",
+      "MB",
+      "GB",
+      "TB",
+      "PB",
+      "EB",
+      "ZB",
+      "YB"
+    ],
+    "day_names": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "day_names_short": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "day_names_min": [
+      "Su",
+      "Mo",
+      "Tu",
+      "We",
+      "Th",
+      "Fr",
+      "Sa"
+    ],
+    "month_names": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "month_names_short": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "choose_year": "Choose Year",
+    "choose_month": "Choose Month",
+    "choose_date": "Choose Date",
+    "prev_decade": "Previous Decade",
+    "next_decade": "Next Decade",
+    "prev_year": "Previous Year",
+    "next_year": "Next Year",
+    "prev_month": "Previous Month",
+    "next_month": "Next Month",
+    "prev_hour": "Previous Hour",
+    "next_hour": "Next Hour",
+    "prev_minute": "Previous Minute",
+    "next_minute": "Next Minute",
+    "prev_second": "Previous Second",
+    "next_second": "Next Second",
+    "am": "am",
+    "pm": "pm",
+    "today": "Today",
+    "week_header": "Wk",
+    "first_day_of_week": 0,
+    "show_month_after_year": false,
+    "date_format": "mm/dd/yy",
+    "weak": "Weak",
+    "medium": "Medium",
+    "strong": "Strong",
+    "password_prompt": "Enter a password",
+    "search_message": "{0} results are available",
+    "selection_message": "{0} items selected",
+    "empty_selection_message": "No selected item",
+    "empty_search_message": "No results found",
+    "file_chosen_message": "{0} files",
+    "no_file_chosen_message": "No file chosen",
+    "empty_message": "No available options",
+    "aria": {
+      "true_label": "True",
+      "false_label": "False",
+      "null_label": "Not Selected",
+      "star": "1 star",
+      "stars": "{star} stars",
+      "select_all": "All items selected",
+      "unselect_all": "All items unselected",
+      "close": "Close",
+      "previous": "Previous",
+      "next": "Next",
+      "navigation": "Navigation",
+      "scroll_top": "Scroll Top",
+      "move_top": "Move Top",
+      "move_up": "Move Up",
+      "move_down": "Move Down",
+      "move_bottom": "Move Bottom",
+      "move_to_target": "Move to Target",
+      "move_to_source": "Move to Source",
+      "move_all_to_target": "Move All to Target",
+      "move_all_to_source": "Move All to Source",
+      "page_label": "Page {page}",
+      "first_page_label": "First Page",
+      "last_page_label": "Last Page",
+      "next_page_label": "Next Page",
+      "prev_page_label": "Previous Page",
+      "rows_per_page_label": "Rows per page",
+      "jump_to_page_dropdown_label": "Jump to Page Dropdown",
+      "jump_to_page_input_label": "Jump to Page Input",
+      "select_row": "Row Selected",
+      "unselect_row": "Row Unselected",
+      "expand_row": "Row Expanded",
+      "collapse_row": "Row Collapsed",
+      "show_filter_menu": "Show Filter Menu",
+      "hide_filter_menu": "Hide Filter Menu",
+      "filter_operator": "Filter Operator",
+      "filter_constraint": "Filter Constraint",
+      "edit_row": "Row Edit",
+      "save_edit": "Save Edit",
+      "cancel_edit": "Cancel Edit",
+      "list_view": "List View",
+      "grid_view": "Grid View",
+      "slide": "Slide",
+      "slide_number": "{slideNumber}",
+      "zoom_image": "Zoom Image",
+      "zoom_in": "Zoom In",
+      "zoom_out": "Zoom Out",
+      "rotate_right": "Rotate Right",
+      "rotate_left": "Rotate Left"
+    }
+  }
+}

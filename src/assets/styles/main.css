@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
+
+@custom-variant dark (&:where(.my-app-dark, .my-app-dark *));
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* NProgress Bar Color */
+#nprogress .bar {
+  background: #3B82F6 !important;
+}
+
+/* Chrome, Safari, Opera */
+html::-webkit-scrollbar {
+  width: 6px; /* scrollbar */
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05); /* 半透明軌道 */
+  border-radius: 3px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #BEDBFF;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #8EC5FF;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #BEDBFF rgba(0, 0, 0, 0.05); /* thumb 顏色, track 顏色 */
+}
+
+/* Vue Transition Animation */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

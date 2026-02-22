@@ -1,0 +1,486 @@
+{
+  "language": "繁體中文",
+  "lang_code": "zh-TW",
+  "api_error_message": {
+    "offline": "沒有網路連線",
+    "timeout": "連線逾時，請稍後再試",
+    "bad_request": "錯誤的請求，無法取得資源",
+    "bad_response": "伺服器錯誤，無法執行請求",
+    "unknown": "未知錯誤"
+  },
+  "system": {
+    "title": "Admin Prime"
+  },
+  "v": {
+    "required": "此欄位為必填",
+    "email_invalid": "請輸入有效的電子郵件格式",
+    "user_name_length": "使用者名稱長度需為 3 到 20 字",
+    "role_id_invalid": "角色格式不正確",
+    "status_invalid": "狀態格式不正確"
+  },
+  "nav": {
+    "dashboard": "儀表板",
+    "system_admin": "系統管理",
+    "user_section": "人員與帳號",
+    "users": "用戶管理"
+  },
+  "route": {
+    "login": "登入",
+    "dashboard": "儀表板",
+    "users": "用戶管理",
+    "forbidden": "禁止存取",
+    "not_found": "頁面不存在"
+  },
+  "dashboard": {
+    "total_sales": "總營收",
+    "total_orders": "總訂單",
+    "new_customers": "新客戶",
+    "conversion_rate": "轉換率",
+    "vs_last_month": "較上月",
+    "last30_days_trend_analysis": "近 30 天趨勢分析",
+    "trend_subtitle": "每日營收變化（含平滑趨勢）",
+    "sales_trend": "每日營收",
+    "weekly_revenue_title": "週營收對比",
+    "weekly_revenue_dataset": "本週營收",
+    "traffic_sources_title": "流量來源",
+    "weekdays": {
+      "monday": "週一",
+      "tuesday": "週二",
+      "wednesday": "週三",
+      "thursday": "週四",
+      "friday": "週五",
+      "saturday": "週六",
+      "sunday": "週日"
+    },
+    "traffic_sources": {
+      "direct": "直接訪問",
+      "social": "社群媒體",
+      "search": "搜尋引擎",
+      "ads": "廣告投放"
+    }
+  },
+  "user_management": {
+    "add_user": "新增用戶",
+    "edit_user": "編輯用戶",
+    "search_placeholder": "搜尋姓名、信箱或角色",
+    "delete_confirm": "確定要刪除「{name}」嗎？",
+    "columns": {
+      "id": "ID",
+      "avatar": "頭像",
+      "name": "姓名",
+      "email": "信箱",
+      "role": "角色",
+      "status": "狀態",
+      "actions": "操作"
+    },
+    "roles": {
+      "admin": "管理員",
+      "manager": "經理",
+      "user": "一般用戶"
+    },
+    "status": {
+      "active": "啟用中",
+      "inactive": "停用"
+    },
+    "form": {
+      "name": "姓名",
+      "name_placeholder": "請輸入姓名",
+      "email": "信箱",
+      "email_placeholder": "請輸入電子郵件",
+      "role": "角色",
+      "status": "狀態"
+    },
+    "validation": {
+      "required": "姓名與信箱為必填",
+      "invalid_email": "請輸入有效的電子郵件格式"
+    },
+    "messages": {
+      "created": "用戶建立成功",
+      "updated": "用戶更新成功",
+      "deleted": "用戶已刪除",
+      "save_failed": "儲存失敗，請稍後再試",
+      "delete_failed": "刪除失敗，請稍後再試"
+    }
+  },
+  "login_page": {
+    "subtitle": "請使用您的帳號資訊登入系統",
+    "theme_toggle": "切換主題",
+    "language_switcher": "切換語言",
+    "email_label": "電子郵件",
+    "email_placeholder": "請輸入電子郵件",
+    "password_label": "密碼",
+    "password_placeholder": "請輸入密碼",
+    "login_button": "登入",
+    "languages": {
+      "zh_tw": "繁體中文",
+      "en_us": "English"
+    },
+    "errors": {
+      "required": "請輸入電子郵件與密碼",
+      "invalid_credentials": "帳號或密碼錯誤，請重新嘗試"
+    },
+    "messages": {
+      "login_success": "登入成功，正在跳轉首頁"
+    }
+  },
+  "login": {
+    "divider_text": "或透過以下方式繼續",
+    "remember_me": "記住我",
+    "forgot_password": "忘記密碼",
+    "social": {
+      "google": "Google",
+      "github": "GitHub"
+    },
+    "social_success": "已模擬 {provider} 登入"
+  },
+  "error_page": {
+    "actions": {
+      "go_home": "返回首頁"
+    },
+    "not_found": {
+      "title": "找不到頁面"
+    },
+    "forbidden": {
+      "badge": "權限防護中",
+      "title": "403：這個區域目前禁止進入",
+      "description": "你的帳號尚未取得此功能的存取權限。",
+      "tip": "請聯繫管理員開通權限，或重新登入後再試一次。"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright © {year} {project}",
+    "source_code": "原始碼"
+  },
+  "common": {
+    "change_password": "修改密碼",
+    "logout": "登出",
+    "no_data": "沒有資料",
+    "pagination": {
+      "total_records": "共 {count} 筆"
+    },
+    "dialog": {
+      "alert": "警示",
+      "confirmation": "確認",
+      "prompt": "提示"
+    },
+    "button": {
+      "add": "新增",
+      "create": "建立",
+      "edit": "編輯",
+      "update": "更新",
+      "save": "儲存",
+      "delete": "刪除",
+      "remove": "移除",
+      "cancel": "取消",
+      "confirm": "確認",
+      "submit": "送出",
+      "reset": "重設",
+      "search": "搜尋",
+      "filter": "篩選",
+      "clear": "清除",
+      "back": "返回",
+      "back_to_list": "返回列表",
+      "next": "下一步",
+      "previous": "上一步",
+      "view": "檢視",
+      "view_more": "查看更多",
+      "more": "更多",
+      "detail": "詳細資料",
+      "download": "下載",
+      "upload": "上傳",
+      "import": "匯入",
+      "export": "匯出",
+      "print": "列印",
+      "copy": "複製",
+      "refresh": "重新整理",
+      "close": "關閉",
+      "yes": "是",
+      "no": "否",
+      "ok": "確定",
+      "retry": "重試",
+      "continue": "繼續",
+      "select_all": "全選",
+      "deselect_all": "取消全選",
+      "expand_all": "全部展開",
+      "collapse_all": "全部收合",
+      "change": "變更",
+      "apply": "套用",
+      "preview": "預覽",
+      "send": "傳送",
+      "login": "登入",
+      "logout": "登出",
+      "enable": "啟用",
+      "disable": "停用",
+      "send_record": "發送紀錄"
+    },
+    "image_editor": {
+      "rotate_left": "向左旋轉 90°",
+      "rotate_right": "向右旋轉 90°",
+      "zoom_in": "放大",
+      "zoom_out": "縮小",
+      "flip_horizontal": "水平翻轉",
+      "flip_vertical": "垂直翻轉",
+      "reset": "重設"
+    },
+    "theme": {
+      "light": "淺色主題",
+      "dark": "深色主題",
+      "system": "跟隨系統"
+    },
+    "toast": {
+      "success": "成功",
+      "info": "訊息",
+      "warn": "警告",
+      "error": "錯誤"
+    },
+    "form": {
+      "placeholder": {
+        "account": "請輸入帳號",
+        "email": "請輸入電子郵件",
+        "password": "請輸入密碼",
+        "confirm_password": "請再次輸入密碼",
+        "captcha": "請輸入驗證碼"
+      },
+      "label": {
+        "account": "帳號",
+        "email": "電子郵件",
+        "password": "密碼",
+        "confirm_password": "確認密碼"
+      },
+      "validation": {
+        "account": {
+          "required": "帳號為必填"
+        },
+        "email": {
+          "required": "電子郵件為必填",
+          "invalid": "請輸入有效的電子郵件"
+        },
+        "password": {
+          "required": "密碼為必填",
+          "min": "密碼至少需 8 字元",
+          "max": "密碼最多 16 字元",
+          "uppercase": "密碼需包含至少一個大寫字母",
+          "lowercase": "密碼需包含至少一個小寫字母",
+          "number": "密碼需包含至少一個數字",
+          "special": "密碼需包含至少一個符號（特殊字元）"
+        },
+        "confirm_password": {
+          "required": "確認密碼為必填",
+          "invalid": "請輸入相同的密碼"
+        },
+        "captcha": {
+          "required": "驗證碼為必填",
+          "invalid": "請輸入有效的驗證碼"
+        }
+      }
+    }
+  },
+  "notifications": {
+    "title": "通知",
+    "mark_all_as_read": "全部標記為已讀",
+    "view_all": "查看全部",
+    "empty": "目前沒有通知",
+    "items": {
+      "system_update": {
+        "title": "系統更新完成",
+        "description": "排程維護已完成，服務恢復正常。"
+      },
+      "new_message": {
+        "title": "收到客服新訊息",
+        "description": "客服已回覆您的服務單內容。"
+      },
+      "security_alert": {
+        "title": "偵測到異常登入",
+        "description": "系統偵測到來自新裝置的登入行為。"
+      },
+      "weekly_report": {
+        "title": "每週報表已產生",
+        "description": "最新分析摘要已可下載檢視。"
+      }
+    },
+    "time": {
+      "minutes_ago": "{count} 分鐘前",
+      "hour_ago": "1 小時前",
+      "hours_ago": "{count} 小時前"
+    }
+  },
+  "primevue": {
+    "starts_with": "以此開頭",
+    "contains": "包含",
+    "not_contains": "不包含",
+    "ends_with": "以此結尾",
+    "equals": "等於",
+    "not_equals": "不等於",
+    "no_filter": "不篩選",
+    "lt": "小於",
+    "lte": "小於或等於",
+    "gt": "大於",
+    "gte": "大於或等於",
+    "date_is": "日期為",
+    "date_is_not": "日期不為",
+    "date_before": "日期早於",
+    "date_after": "日期晚於",
+    "clear": "清除",
+    "apply": "套用",
+    "match_all": "全部符合",
+    "match_any": "任一符合",
+    "add_rule": "新增條件",
+    "remove_rule": "移除條件",
+    "accept": "是",
+    "reject": "否",
+    "choose": "選擇",
+    "upload": "上傳",
+    "cancel": "取消",
+    "completed": "已完成",
+    "pending": "處理中",
+    "file_size_types": [
+      "B",
+      "KB",
+      "MB",
+      "GB",
+      "TB",
+      "PB",
+      "EB",
+      "ZB",
+      "YB"
+    ],
+    "day_names": [
+      "星期日",
+      "星期一",
+      "星期二",
+      "星期三",
+      "星期四",
+      "星期五",
+      "星期六"
+    ],
+    "day_names_short": [
+      "週日",
+      "週一",
+      "週二",
+      "週三",
+      "週四",
+      "週五",
+      "週六"
+    ],
+    "day_names_min": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ],
+    "month_names": [
+      "一月",
+      "二月",
+      "三月",
+      "四月",
+      "五月",
+      "六月",
+      "七月",
+      "八月",
+      "九月",
+      "十月",
+      "十一月",
+      "十二月"
+    ],
+    "month_names_short": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "choose_year": "選擇年份",
+    "choose_month": "選擇月份",
+    "choose_date": "選擇日期",
+    "prev_decade": "上一個十年",
+    "next_decade": "下一個十年",
+    "prev_year": "上一年",
+    "next_year": "下一年",
+    "prev_month": "上一個月",
+    "next_month": "下一個月",
+    "prev_hour": "上一小時",
+    "next_hour": "下一小時",
+    "prev_minute": "上一分鐘",
+    "next_minute": "下一分鐘",
+    "prev_second": "上一秒",
+    "next_second": "下一秒",
+    "am": "上午",
+    "pm": "下午",
+    "today": "今天",
+    "week_header": "週",
+    "first_day_of_week": 1,
+    "show_month_after_year": false,
+    "date_format": "yy/mm/dd",
+    "weak": "弱",
+    "medium": "中",
+    "strong": "強",
+    "password_prompt": "請輸入密碼",
+    "search_message": "有 {0} 筆結果可用",
+    "selection_message": "已選擇 {0} 筆項目",
+    "empty_selection_message": "尚未選擇項目",
+    "empty_search_message": "查無結果",
+    "file_chosen_message": "{0} 個檔案",
+    "no_file_chosen_message": "未選擇檔案",
+    "empty_message": "沒有可用選項",
+    "aria": {
+      "true_label": "是",
+      "false_label": "否",
+      "null_label": "未選擇",
+      "star": "1 顆星",
+      "stars": "{star} 顆星",
+      "select_all": "已選取所有項目",
+      "unselect_all": "已取消選取所有項目",
+      "close": "關閉",
+      "previous": "上一個",
+      "next": "下一個",
+      "navigation": "導覽",
+      "scroll_top": "捲動至頂端",
+      "move_top": "移到最上方",
+      "move_up": "上移",
+      "move_down": "下移",
+      "move_bottom": "移到最下方",
+      "move_to_target": "移到右側",
+      "move_to_source": "移到左側",
+      "move_all_to_target": "全部移到右側",
+      "move_all_to_source": "全部移到左側",
+      "page_label": "第 {page} 頁",
+      "first_page_label": "第一頁",
+      "last_page_label": "最後一頁",
+      "next_page_label": "下一頁",
+      "prev_page_label": "上一頁",
+      "rows_per_page_label": "每頁筆數",
+      "jump_to_page_dropdown_label": "跳至頁面下拉選單",
+      "jump_to_page_input_label": "跳至頁面輸入框",
+      "select_row": "已選取列",
+      "unselect_row": "已取消選取列",
+      "expand_row": "展開列",
+      "collapse_row": "收合列",
+      "show_filter_menu": "顯示篩選選單",
+      "hide_filter_menu": "隱藏篩選選單",
+      "filter_operator": "篩選運算子",
+      "filter_constraint": "篩選條件",
+      "edit_row": "編輯列",
+      "save_edit": "儲存編輯",
+      "cancel_edit": "取消編輯",
+      "list_view": "列表檢視",
+      "grid_view": "方格檢視",
+      "slide": "投影片",
+      "slide_number": "投影片 {slideNumber}",
+      "zoom_image": "放大圖片",
+      "zoom_in": "放大",
+      "zoom_out": "縮小",
+      "rotate_right": "向右旋轉",
+      "rotate_left": "向左旋轉"
+    }
+  }
+}
