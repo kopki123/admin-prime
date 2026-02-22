@@ -120,7 +120,7 @@
       "invalid_credentials": "帳號或密碼錯誤，請重新嘗試"
     },
     "messages": {
-      "login_success": "登入成功，正在跳轉首頁"
+      "login_success": "登入成功，正在跳轉儀表板"
     }
   },
   "login": {

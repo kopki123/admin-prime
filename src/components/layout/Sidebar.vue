@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Mask from '../Mask.vue';
 import { useConfigStore } from '@/stores/config';
 import SidebarMenu from './SidebarMenu.vue';
+import Mask from '../Mask.vue';
 
 const configStore = useConfigStore();
 
@@ -34,7 +34,7 @@ const isSidebarHoverExpanded = computed(() => configStore.isSidebarExpanded || i
           cursor-auto
         "
         :class="[
-          configStore.isSidebarExpanded ? 'w-64' : 'w-0'
+          configStore.isSidebarExpanded ? 'w-72' : 'w-0'
         ]"
         @click.stop
       >
@@ -49,7 +49,7 @@ const isSidebarHoverExpanded = computed(() => configStore.isSidebarExpanded || i
 
   <div
     class="hidden sm:block relative shrink-0"
-    :class="[configStore.isSidebarExpanded ? 'w-64' : 'w-14']"
+    :class="[configStore.isSidebarExpanded ? 'w-72' : 'w-14']"
     @mouseenter="isSidebarHovering = true"
     @mouseleave="isSidebarHovering = false"
   >
@@ -65,10 +65,10 @@ const isSidebarHoverExpanded = computed(() => configStore.isSidebarExpanded || i
       "
       :class="[
         configStore.isSidebarExpanded
-          ? 'overflow-y-auto w-64 sidebar-panel--dock'
+          ? 'overflow-y-auto w-72 sidebar-panel--dock'
           : (
             isSidebarHovering
-              ? 'absolute left-0 top-0 overflow-y-auto w-64 shadow-2xl ring-1 ring-black/5 dark:ring-white/10 sidebar-panel--overlay'
+              ? 'absolute left-0 top-0 overflow-y-auto w-72 shadow-2xl ring-1 ring-black/5 dark:ring-white/10 sidebar-panel--overlay'
               : 'overflow-y-hidden w-14 sidebar-panel--dock'
           )
       ]"

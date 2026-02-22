@@ -16,5 +16,18 @@ export const primeVuePreset = definePreset(Aura, {
       900: '{blue.900}',
       950: '{blue.950}',
     },
-  }
+  },
+  components: {
+    datatable: {
+      css: `
+        :where(
+          .p-datatable .p-datatable-thead > tr > th,
+          .p-datatable .p-datatable-tbody > tr > td,
+          .p-datatable .p-datatable-tfoot > tr > td
+        ) {
+          white-space: nowrap;
+        }
+      `,
+    },
+  },
 });

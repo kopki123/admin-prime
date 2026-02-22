@@ -55,11 +55,11 @@ function resolveChildKey(child: MenuItem, index: number): string {
     <div
       v-if="item.items"
       class="
-        relative mx-2 my-1 h-11 cursor-pointer rounded-xl border border-transparent
+        relative my-1 h-11 cursor-pointer rounded-xl border border-transparent
         flex items-center transition-all duration-200
       "
       :class="[
-        isExpanded ? 'justify-between px-3' : 'justify-center px-0',
+        isExpanded ? 'justify-between mx-2 p-3' : 'justify-center mx-1 px-0',
         level === 0
           ? (
             isActiveMenuPath
@@ -112,11 +112,11 @@ function resolveChildKey(child: MenuItem, index: number): string {
       tabindex="0"
       rel="noopener noreferrer"
       class="
-        relative mx-2 my-1 h-11 rounded-xl border border-transparent
+        relative my-1 h-11 rounded-xl border border-transparent
         flex items-center transition-all duration-200
       "
       :class="[
-        isExpanded ? 'px-3 gap-3' : 'justify-center px-0',
+        isExpanded ? 'mx-2 px-3 gap-3' : 'mx-1 justify-center px-0',
         'text-surface-700 hover:bg-surface-100 hover:text-surface-900 dark:text-surface-200 dark:hover:bg-surface-800/80 dark:hover:text-surface-50',
       ]"
     >
@@ -140,11 +140,11 @@ function resolveChildKey(child: MenuItem, index: number): string {
       v-if="item.to && !item.items"
       :to="{ name: item.to }"
       class="
-        relative mx-2 my-1 h-11 rounded-xl border border-transparent
+        relative my-1 h-11 rounded-xl border border-transparent
         flex items-center transition-all duration-200
       "
       :class="[
-        isExpanded ? 'px-3 gap-3' : 'justify-center px-0',
+        isExpanded ? 'mx-2 px-3 gap-3' : 'justify-center mx-1 px-0',
         level === 0
           ? (
             isActiveMenuItem
@@ -188,7 +188,8 @@ function resolveChildKey(child: MenuItem, index: number): string {
         class="overflow-hidden transition-all duration-200"
         :class="isExpanded
           ? 'mx-2 my-1 space-y-1 border-l border-surface-200/80 pl-2 dark:border-surface-700/70'
-          : 'my-1 space-y-1'"
+          : 'my-1 space-y-1'
+        "
       >
         <MenuItem
           v-for="(child, i) in item.items"
