@@ -10,9 +10,9 @@ NProgress.configure({
 });
 
 export function setupProgressGuard(router: Router) {
-  router.beforeEach((_to, _from, next) => {
+  router.beforeEach(() => {
     NProgress.start();
-    next();
+    return true;
   });
 
   router.afterEach(() => NProgress.done());
