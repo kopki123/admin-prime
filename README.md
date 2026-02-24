@@ -2,6 +2,8 @@
 
 [English](./README.en-US.md)
 
+![image](./public/preview.png)
+
 以 `Vue 3 + TypeScript + Vite` 建立的後台模板，重點放在可擴充版型、路由/存取流程，以及可重用的後端串接基礎。
 
 ## 目前功能

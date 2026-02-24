@@ -2,6 +2,8 @@
 
 [繁體中文](./README.md)
 
+![image](./public/preview.png)
+
 Admin dashboard starter built with `Vue 3 + TypeScript + Vite`, focused on scalable layout architecture, route/access flow, and reusable backend integration patterns.
 
 ## Current Features
